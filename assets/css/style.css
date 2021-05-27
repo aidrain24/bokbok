@@ -10,8 +10,25 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
+  color: #272929;
+  background-color: #d8f6fd;
+
+  
 }
+/* #bd-video {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: -100;
+  /* background-image: url(../img/tm-astro-bg.jpg); */
+  /*background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;  */
 
 a {
   color: #149ddd;
@@ -280,10 +297,11 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #fdffff;
 }
 
 .section-title {
@@ -434,7 +452,7 @@ section {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #149ddd;
+  background-color: #0c9100;
 }
 
 /*--------------------------------------------------------------
