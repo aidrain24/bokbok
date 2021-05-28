@@ -447,6 +447,10 @@ section {
   background: #dce8f8;
   height: 10px;
 }
+.skills .progress-bar:hover {
+  transform: scale(1.5);
+  transition: ease all 0.35s;
+}
 
 .skills .progress-bar {
   width: 1px;
