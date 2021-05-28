@@ -831,8 +831,17 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
-}
 
+}
+.contact .row{
+  width:auto;
+}
+.contact .col-lg-7{
+  width:fit-content;
+}
+.contact .col-lg-5{
+  width:max-content;
+}
 .contact .info {
   padding: 30px;
   background: #fff;
