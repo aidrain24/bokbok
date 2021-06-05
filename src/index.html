@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>aidrain login form </title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<h2>Welcome to Aidrain Alcantara Website</h2>
 <ul class="nav">
-  <li onclick="showLogin()">Log-In</li>
-  <li onclick="showSignup()">Sign-Up</li>
-  <li onclick="showForgotPassword()">Forgot Password</li>
+  <li onclick="showLogin()">Login</li>
+  <li onclick="showSignup()">Sign up</li>
+  <li onclick="showForgotPassword()">Forgot password</li>
   <li onclick="showSubscribe()">Subscribe</li>
   <li onclick="showContactUs()">Contact us</li>
 </ul>
@@ -24,7 +14,7 @@
         <form onsubmit="event.preventDefault()">
           <div class="field-wrapper">
             <input type="text" name="email" placeholder="email">
-            <label>E-mail</label>
+            <label>e-mail</label>
           </div>
           <div class="field-wrapper">
             <input type="submit" onclick="showThankYou()">
@@ -34,15 +24,15 @@
     </div>
     <div class="face face-front">
       <div class="content">
-        <h2>Log-In</h2>
+        <h2>Sign in</h2>
         <form onsubmit="event.preventDefault()">
           <div class="field-wrapper">
             <input type="text" name="username" placeholder="username">
-            <label>UserName</label>
+            <label>username</label>
           </div>
           <div class="field-wrapper">
             <input type="password" name="password" placeholder="password" autocomplete="new-password">
-            <label>Password</label>
+            <label>password</label>
           </div>
           <div class="field-wrapper">
             <input type="submit" onclick="showThankYou()">
@@ -121,20 +111,3 @@
     </div>
   </div>
 </div>
-<div class="container">
-
-  <p>
-    <button id="button" class="BT-OH-BR-R6-NF-FH-FP-TU-PT" onClick="location.href='index2.html'">
-        <canvas id="canvas"></canvas> 
-        <hover></hover>
-        <span style="color:white" >Continue Log-In</span>
-        
-    </button>
-  
-  </p>
- 
-  </div>
-  <script  src="./script.js"></script>
-
-</body>
-</html>
