@@ -42,8 +42,8 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  left: 15px;
-  bottom: 100px;
+  right: 15px;
+  bottom: 110px;
   z-index: 996;
   background: #149ddd;
   width: 40px;
@@ -376,6 +376,11 @@ section {
   color: #149ddd;
   float: left;
   line-height: 0;
+}
+.facts .count-box i:hover{
+  transform: scale(1.5);
+  opacity: 0.9;
+  transition: all ease-in 0.25s;
 }
 
 .facts .count-box span {
