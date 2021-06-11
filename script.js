@@ -2,37 +2,38 @@ let prism = document.querySelector(".rec-prism");
 
 function showSignup(){
   prism.style.transform = "translateZ(-100px) rotateY( -90deg)";
+  document.getElementById("button").style.display = "none";
 }
 function showLogin(){
   prism.style.transform = "translateZ(-100px)";
+  document.getElementById("button").style.display = "none";
 }
 function showForgotPassword(){
   prism.style.transform = "translateZ(-100px) rotateY( -180deg)";
+  document.getElementById("button").style.display = "none";
 }
 
 function showSubscribe(){
   prism.style.transform = "translateZ(-100px) rotateX( -90deg)";
+  document.getElementById("button").style.display = "none";
 }
 
 function showContactUs(){
   prism.style.transform = "translateZ(-100px) rotateY( 90deg)";
+  document.getElementById("button").style.display = "none";
 }
 
 function showThankYou(){
   prism.style.transform = "translateZ(-100px) rotateX( 90deg)";
+  document.getElementById("button").style.display = "block";
+
 }
 
 
-
-
-
-
-// http://paulirish.com/2011/requestanimationframe-for-smart-animating/
-// http://my.opera.com/emoller/blog/2011/12/20/requestanimationframe-for-smart-er-animating
  
-// requestAnimationFrame polyfill by Erik Möller. fixes from Paul Irish and Tino Zijdel
+//AnimationFrame
  
-// MIT license
+
  
 (function() {
   var lastTime = 0;

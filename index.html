@@ -7,7 +7,9 @@
 
 </head>
 <body>
-<h2>Welcome to Aidrain Alcantara Website</h2>
+
+  <h2>Welcome to Aidrain Alcantara Website</h2>
+
 <ul class="nav">
   <li onclick="showLogin()">Log-In</li>
   <li onclick="showSignup()">Sign-Up</li>
@@ -121,10 +123,10 @@
     </div>
   </div>
 </div>
-<div class="container">
+<div class="container" style.display = "none">
 
-  <p>
-    <button id="button" class="BT-OH-BR-R6-NF-FH-FP-TU-PT" onClick="location.href='index2.html'">
+  <p >
+    <button id="button" class="BT-OH-BR-R6-NF-FH-FP-TU-PT"  onClick="location.href='index2.html'">
         <canvas id="canvas"></canvas> 
         <hover></hover>
         <span style="color:white" >Continue Log-In</span>
@@ -133,7 +135,10 @@
   
   </p>
  
-  </div>
+</div>
+  <script>
+    document.getElementById("button").style.display = "none";
+  </script>
   <script  src="./script.js"></script>
 
 </body>
