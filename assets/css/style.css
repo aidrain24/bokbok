@@ -91,6 +91,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 120px;
   border: 8px solid #2c2f3f;
 }
+#header .gif img{
+  position: fixed;
+  width: 270px;
+  height: 600px;
+}
+ 
 
 #header .profile h1 {
   font-size: 24px;
